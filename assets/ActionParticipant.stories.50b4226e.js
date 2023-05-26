@@ -1,0 +1,13 @@
+var m=Object.defineProperty;var a=(e,n)=>m(e,"name",{value:n,configurable:!0});import"./jsx-runtime.e74d9f1f.js";import{c as t,A as l,M as d,a as u}from"./Props.53abe312.js";import"./iframe.52a24521.js";import{a as g,P as c}from"./index.38d51592.js";import"./string.8e649965.js";import"./es.map.constructor.d97a9456.js";import"./es.number.to-fixed.f6cb879a.js";import"./index.c2e0bee4.js";import"./en.56afbf8a.js";import"./index.d289d216.js";function p(){return p=Object.assign?Object.assign.bind():function(e){for(var n=1;n<arguments.length;n++){var o=arguments[n];for(var i in o)Object.prototype.hasOwnProperty.call(o,i)&&(e[i]=o[i])}return e},p.apply(this,arguments)}a(p,"_extends");const A={},y="wrapper";function s({components:e,...n}){return t(y,p({},A,n,{components:e,mdxType:"MDXLayout"}),t(d,{title:"Components/actions/ParticipantAction",id:"components-actions-participant",mdxType:"Meta"}),t("h1",null,"ParticipantAction"),t("p",null,t("strong",{parentName:"p"},"Important"),": All the actions should be wrapped by ",t("inlineCode",{parentName:"p"},"<ActionBar>"),"!"),t("p",null,"The ",t("inlineCode",{parentName:"p"},"ParticipantAction")," component is a widget to manage participants."),t("h2",null,"Demo"),t(g,{centerActions:[t(c,{mdxType:"ParticipantAction"})],mdxType:"ActionBar"}),t("h2",null,"Importing"),t("pre",null,t("code",{parentName:"pre",className:"language-jsx"},`import { ParticipantAction } from '@ringcentral/video-sdk-react'
+`)),t("h2",null,"Usage"),t("pre",null,t("code",{parentName:"pre",className:"language-jsx"},`import React from 'react'
+import { RcvEngineProvider, ParticipantAction } from '@ringcentral/video-sdk-react'
+
+const App = () => {
+    return (
+        <RcvEngineProvider rcvEngine={rcvEngine}>
+            <ActionBar centerActions={[<ParticipantAction />]} />
+        </RcvEngineProvider>
+    )
+}
+`)),t("h2",null,"Props"),t(u,{of:c,sort:"requiredFirst",mdxType:"ArgsTable"}),t("p",null,"More details and component properties refer to ",t("a",{parentName:"p",href:"./?path=/story/components-participantpanel--page"},"Participant Panel"),"."))}a(s,"MDXContent");s.isMDXComponent=!0;const P=a(()=>{throw new Error("Docs-only story")},"__page");P.parameters={docsOnly:!0};const r={title:"Components/actions/ParticipantAction",id:"components-actions-participant",includeStories:["__page"]},f={};r.parameters=r.parameters||{};r.parameters.docs={...r.parameters.docs||{},page:()=>t(l,{mdxStoryNameToKey:f,mdxComponentAnnotations:r},t(s,null))};const D=["__page"];export{D as __namedExportsOrder,P as __page,r as default};
+//# sourceMappingURL=ActionParticipant.stories.50b4226e.js.map

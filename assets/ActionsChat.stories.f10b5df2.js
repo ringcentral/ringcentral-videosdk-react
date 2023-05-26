@@ -1,0 +1,13 @@
+var m=Object.defineProperty;var a=(n,e)=>m(n,"name",{value:e,configurable:!0});import"./jsx-runtime.e74d9f1f.js";import{c as t,A as l,M as d,a as h}from"./Props.53abe312.js";import"./iframe.52a24521.js";import{a as u,C as p}from"./index.38d51592.js";import"./string.8e649965.js";import"./es.map.constructor.d97a9456.js";import"./es.number.to-fixed.f6cb879a.js";import"./index.c2e0bee4.js";import"./en.56afbf8a.js";import"./index.d289d216.js";function s(){return s=Object.assign?Object.assign.bind():function(n){for(var e=1;e<arguments.length;e++){var r=arguments[e];for(var i in r)Object.prototype.hasOwnProperty.call(r,i)&&(n[i]=r[i])}return n},s.apply(this,arguments)}a(s,"_extends");const g={},A="wrapper";function c({components:n,...e}){return t(A,s({},g,e,{components:n,mdxType:"MDXLayout"}),t(d,{title:"Components/actions/ChatAction",id:"components-actions-chat",mdxType:"Meta"}),t("h1",null,"ChatAction"),t("p",null,t("strong",{parentName:"p"},"Important"),": All the actions should be wrapped by ",t("inlineCode",{parentName:"p"},"<ActionBar>"),"!"),t("p",null,"The ",t("inlineCode",{parentName:"p"},"ChatAction")," component is a widget to render chat panel. It will display the chat messages of the meeting, and provide the ability to send messages inside the meeting."),t("h2",null,"Demo"),t(u,{centerActions:[t(p,{isShowLabel:!0,mdxType:"ChatAction"})],mdxType:"ActionBar"}),t("h2",null,"Importing"),t("pre",null,t("code",{parentName:"pre",className:"language-jsx"},`import { ChatAction } from '@ringcentral/video-sdk-react'
+`)),t("h2",null,"Usage"),t("pre",null,t("code",{parentName:"pre",className:"language-jsx"},`import React from 'react'
+import { RcvEngineProvider, ChatAction } from '@ringcentral/video-sdk-react'
+
+const App = () => {
+    return (
+        <RcvEngineProvider rcvEngine={rcvEngine}>
+            <ActionBar centerActions={[<ChatAction isShowLabel={true} />]} />
+        </RcvEngineProvider>
+    )
+}
+`)),t("h2",null,"Props"),t(h,{of:p,sort:"requiredFirst",mdxType:"ArgsTable"}),t("p",null,"More details and component properties refer to ",t("a",{parentName:"p",href:"./?path=/story/components-chatpanel--page"},"Chat Panel"),"."))}a(c,"MDXContent");c.isMDXComponent=!0;const y=a(()=>{throw new Error("Docs-only story")},"__page");y.parameters={docsOnly:!0};const o={title:"Components/actions/ChatAction",id:"components-actions-chat",includeStories:["__page"]},C={};o.parameters=o.parameters||{};o.parameters.docs={...o.parameters.docs||{},page:()=>t(l,{mdxStoryNameToKey:C,mdxComponentAnnotations:o},t(c,null))};const D=["__page"];export{D as __namedExportsOrder,y as __page,o as default};
+//# sourceMappingURL=ActionsChat.stories.f10b5df2.js.map

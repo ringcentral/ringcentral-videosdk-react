@@ -1,0 +1,13 @@
+var m=Object.defineProperty;var r=(o,e)=>m(o,"name",{value:e,configurable:!0});import"./jsx-runtime.e74d9f1f.js";import{c as t,A as c,M as d,a as u}from"./Props.53abe312.js";import"./iframe.52a24521.js";import{A as l}from"./index.38d51592.js";import"./string.8e649965.js";import"./es.map.constructor.d97a9456.js";import"./es.number.to-fixed.f6cb879a.js";import"./index.c2e0bee4.js";import"./en.56afbf8a.js";import"./index.d289d216.js";function p(){return p=Object.assign?Object.assign.bind():function(o){for(var e=1;e<arguments.length;e++){var a=arguments[e];for(var i in a)Object.prototype.hasOwnProperty.call(a,i)&&(o[i]=a[i])}return o},p.apply(this,arguments)}r(p,"_extends");const g={},A="wrapper";function s({components:o,...e}){return t(A,p({},g,e,{components:o,mdxType:"MDXLayout"}),t(d,{title:"Components/actions/AudioAction",id:"components-actions-audio",mdxType:"Meta"}),t("h1",null,"AudioAction"),t("p",null,t("strong",{parentName:"p"},"Important"),": All the actions should be wrapped by ",t("inlineCode",{parentName:"p"},"<ActionBar>"),"!"),t("p",null,"The ",t("inlineCode",{parentName:"p"},"AudioAction")," component is a widget to control audio mute/unmute, switch recording devices."),t("p",null,"If host/moderator requires to unmute all remote users' audio, ",t("inlineCode",{parentName:"p"},"AudioAction")," component popups a confirm panel to admit or deny it."),t("h2",null,"Snapshot"),t("img",{src:"./audio-unmute.png",style:{maxWidth:300}}),t("img",{src:"./audio-remote-unmute.png",style:{maxWidth:300}}),t("h2",null,"Importing"),t("pre",null,t("code",{parentName:"pre",className:"language-jsx"},`import { AudioAction } from '@ringcentral/video-sdk-react'
+`)),t("h2",null,"Usage"),t("pre",null,t("code",{parentName:"pre",className:"language-jsx"},`import React from 'react'
+import { RcvEngineProvider, AudioAction } from '@ringcentral/video-sdk-react'
+
+const App = () => {
+    return (
+        <RcvEngineProvider rcvEngine={rcvEngine}>
+            <ActionBar centerActions={[<AudioAction />]} />
+        </RcvEngineProvider>
+    )
+}
+`)),t("h2",null,"Props"),t(u,{of:l,sort:"requiredFirst",mdxType:"ArgsTable"}))}r(s,"MDXContent");s.isMDXComponent=!0;const y=r(()=>{throw new Error("Docs-only story")},"__page");y.parameters={docsOnly:!0};const n={title:"Components/actions/AudioAction",id:"components-actions-audio",includeStories:["__page"]},h={};n.parameters=n.parameters||{};n.parameters.docs={...n.parameters.docs||{},page:()=>t(c,{mdxStoryNameToKey:h,mdxComponentAnnotations:n},t(s,null))};const O=["__page"];export{O as __namedExportsOrder,y as __page,n as default};
+//# sourceMappingURL=ActionAudio.stories.f93de9dd.js.map
